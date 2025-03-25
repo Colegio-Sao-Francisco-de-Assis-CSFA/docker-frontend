@@ -9,12 +9,10 @@ WORKDIR /app
 
 # Copia apenas os arquivos de dependências para aproveitar cache de build
 COPY package.json ./
-# COPY package-lock.json ./  # opcional, mas recomendado
+COPY package-lock.json ./
 
 # Instala as dependências
-RUN npm install
-
-# EXPOSE 3000
+RUN npm ci
 
 # O volume externo vai montar o código-fonte por cima de /app
 # Mas os node_modules já estarão instalados na imagem
