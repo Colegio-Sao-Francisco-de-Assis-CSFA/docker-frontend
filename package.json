@@ -1,0 +1,45 @@
+{
+  "name": "csfa-frontend",
+  "version": "1.0.0",
+  "description": "Frontend do site do Colégio São Francisco de Assis",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@iconify/react": "*",
+    "@netlify/plugin-nextjs": "*",
+    "@radix-ui/react-dialog": "*",
+    "@radix-ui/react-dropdown-menu": "*",
+    "@radix-ui/react-slot": "*",
+    "@shadcn/ui": "*",
+    "@tailwindcss/forms": "*",
+    "@tailwindcss/typography": "*",
+    "autoprefixer": "*",
+    "axios": "*",
+    "class-variance-authority": "*",
+    "clsx": "*",
+    "eslint": "*",
+    "lucide-react": "*",
+    "motion": "*",
+    "next": "*",
+    "papaparse": "*",
+    "postcss": "*",
+    "prettier": "*",
+    "puppeteer": "*",
+    "react": "*",
+    "react-dom": "*",
+    "tailwind-merge": "*",
+    "tailwindcss-animate": "*",
+    "zod": "*"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "*",
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "tailwindcss": "*",
+    "typescript": "*"
+  }
+}
