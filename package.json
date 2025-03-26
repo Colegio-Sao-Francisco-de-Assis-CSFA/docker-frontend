@@ -1,7 +1,7 @@
 {
   "name": "csfa-frontend",
   "version": "1.0.0",
-  "description": "Frontend do site do Colégio São Francisco de Assis",
+  "description": "Ambiente de desenvolvimento frontend do site do Colégio São Francisco de Assis, preparado para execução com Docker.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
