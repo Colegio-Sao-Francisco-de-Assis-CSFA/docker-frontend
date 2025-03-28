@@ -3,7 +3,7 @@ FROM node:20.18.3-alpine
 LABEL \
   version="1.0" \
   owner="Colégio São Francisco de Assis" \
-  description="Container com as dependências de FrontEnd do site do CSFA"
+  description="Container com as dependências de frontend do site do CSFA"
 
 WORKDIR /app
 
